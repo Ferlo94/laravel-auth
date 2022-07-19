@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <a href="{{route('admin.posts.index')}}" class="btn btn-primary">Visualizza tutti i posts</a>
                 </div>
             </div>
         </div>
